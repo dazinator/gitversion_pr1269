@@ -4,9 +4,9 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="GitVersionTask" Version="4.0.0-pullrequest1269-1528" />
+    <PackageReference Include="GitVersionTask" Version="4.0.0-pullrequest1269-1530" />
   </ItemGroup>
 
 </Project>
