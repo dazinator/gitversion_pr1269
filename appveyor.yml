@@ -4,7 +4,7 @@ build:
   verbosity: normal
 build_script:
 - cmd: dotnet restore ./src/repro.sln --disable-parallel
-- cmd: dotnet build ./src/repro.sln
+- cmd: dotnet build ./src/repro.sln --disable-parallel
 - cmd: dotnet pack ./src/repro.sln --output ../../artifacts/
 test: off
 artifacts:
