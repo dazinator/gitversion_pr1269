@@ -14,7 +14,7 @@
     <PackageLicenseUrl>https://github.com/dazinator/repro/blob/master/LICENSE</PackageLicenseUrl>
     <PackageTags>repro</PackageTags>
     <PackageReleaseNotes>repro.</PackageReleaseNotes>
-    <RootNamespace>Drepro</RootNamespace>    
+    <RootNamespace>repro</RootNamespace>    
   </PropertyGroup>
 
   <ItemGroup>
