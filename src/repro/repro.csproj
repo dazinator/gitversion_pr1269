@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <!--<TargetFrameworks>netcoreapp2.0;netstandard1.3</TargetFrameworks>-->
 
-    <TargetFrameworks>netstandard1.5;</TargetFrameworks>
+    <TargetFrameworks>netstandard1.1;</TargetFrameworks>
     <AssemblyName>repro</AssemblyName>
     <OutputType>Library</OutputType>
     <PackageId>repro</PackageId>
@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <PackageReference Include="GitVersionTask" Version="4.0.0-pullrequest1269-1534">
-      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
 
