@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GitVersionTask" Version="4.0.0-pullrequest1269-1530" />
+    <PackageReference Include="GitVersionTask" Version="4.0.0-pullrequest1269-1531" />
   </ItemGroup>
 
 </Project>
