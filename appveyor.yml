@@ -3,9 +3,9 @@ image: Visual Studio 2017
 build:
   verbosity: normal
 build_script:
-- cmd: dotnet restore ./src/repro.sln --disable-parallel
-- cmd: dotnet build ./src/repro.sln --disable-parallel
-- cmd: dotnet pack ./src/repro.sln --output ../../artifacts/
+- cmd: msbuild ./src/repro.sln /t:Restore
+- cmd: msbuild ./src/repro.sln /t:Build
+- cmd: msbuild ./src/repro.sln /t:Pack /p:PackageOutputPath=../../artifacts/
 test: off
 artifacts:
 - path: ./artifacts/*
