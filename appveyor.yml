@@ -1,7 +1,7 @@
 skip_tags: true
 image: Visual Studio 2017
 build:
-  verbosity: normal
+  verbosity: detailed
 build_script:
 - cmd: dotnet restore ./src/repro.sln --disable-parallel
 - cmd: dotnet build ./src/repro.sln --disable-parallel
