@@ -1,0 +1,11 @@
+skip_tags: true
+image: Visual Studio 2017
+build:
+  verbosity: normal
+build_script:
+- cmd: dotnet restore ./src/repro.sln
+- cmd: dotnet build ./src/repro.sln
+- cmd: dotnet pack ./src/repro.sln --output ../../artifacts/
+test: off
+artifacts:
+- path: ./artifacts/*
