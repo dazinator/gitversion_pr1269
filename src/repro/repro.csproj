@@ -2,7 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>netcoreapp2.0;netstandard1.3</TargetFrameworks>
+    <!--<TargetFrameworks>netcoreapp2.0;netstandard1.3</TargetFrameworks>-->
+
+    <TargetFrameworks>netstandard1.1;net45;net46;net4</TargetFrameworks>
+    <AssemblyName>repro</AssemblyName>
+    <OutputType>Library</OutputType>
+    <PackageId>repro</PackageId>
+    <PackageProjectUrl>https://github.com/dazinator/repro</PackageProjectUrl>
+    <Description>repro.</Description>
+    <Authors>Darrell Tunnell &lt;darrell.tunnell@googlemail.com&gt;</Authors>
+    <PackageLicenseUrl>https://github.com/dazinator/repro/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>repro</PackageTags>
+    <PackageReleaseNotes>repro.</PackageReleaseNotes>
+    <RootNamespace>Drepro</RootNamespace>    
   </PropertyGroup>
 
   <ItemGroup>
