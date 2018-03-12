@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace repro
 {
@@ -6,7 +7,8 @@ namespace repro
     {
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello World!");
+            // Console.WriteLine("Hello World!");
+            Debug.WriteLine("foo");
         }
     }
 }
